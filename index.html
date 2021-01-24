@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Monoklonale Antikörper</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			type="module"
+			src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+		/>
+	</head>
+	<body>
+		<ion-app>
+			<ion-header>
+				<ion-toolbar color="primary">
+					<ion-title>
+						Monoklonale Antikörper
+					</ion-title>
+				</ion-toolbar>
+			</ion-header>
+			<ion-content>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<ion-card>
+								<ion-card-header>
+									<ion-card-title text-wrap
+										>Polyklonale Antikörper</ion-card-title
+									>
+								</ion-card-header>
+								<ion-card-content>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>„poly“: viel, „klonal“: (junge) Art --> viele Arten an
+												Antikörpern</ion-label
+											>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>viele verschiedene Antikörper</ion-label
+											>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>polyklonale Antikörper sind z.B. ein Resultat der
+												natürlich vorkommenden Immunantwort</ion-label
+											>
+										</ion-item>
+									</ion-list>
+								</ion-card-content>
+							</ion-card>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col>
+							<ion-card>
+								<ion-card-header>
+									<ion-card-title text-wrap
+										>Monoklonale Antikörper</ion-card-title
+									>
+								</ion-card-header>
+								<ion-card-content>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>„mono“: einzig, „klonal“: (junge) Art --> eine einzige
+												Art an Antikörpern</ion-label
+											>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>identische Antikörper, die eine identische Spezifität
+												für dasselbe Epitop besitzen und indirekt von einem
+												einzigen B-Lymphozyten abstammen
+											</ion-label>
+										</ion-item>
+									</ion-list>
+								</ion-card-content>
+							</ion-card>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col>
+							<ion-card>
+								<ion-card-header>
+									<ion-card-title text-wrap>Herstellung</ion-card-title>
+								</ion-card-header>
+								<ion-card-content>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Erste Publikation über massenhafte Herstellung von MAKs
+												im Jahr 1975</ion-label
+											>
+										</ion-item>
+										<ion-card>
+											<ion-card-header>
+												<ion-card-title text-wrap
+													>Hybridom-Technik</ion-card-title
+												>
+											</ion-card-header>
+											<ion-card-content>
+												<ion-list>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>Prinzip: identische B-Lymphozyten massenhaft
+															klonieren und hieraus MAKs gewinnen</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>Problem: kurze Lebensdauer von
+															B-Lymphozyten</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>Lösung: Verschmelzung von B-Lymphozyten mit
+															unbegrenzt teilungsfähigen Myelom-Zellen
+															(Tumorzellen) --> Entstehung von Hybridomzellen,
+															die unbegrenzt monoklonale Antikörper einer
+															bestimmten Spezifität produzieren</ion-label
+														>
+													</ion-item>
+												</ion-list>
+											</ion-card-content>
+										</ion-card>
+										<ion-card>
+											<ion-card-header>
+												<ion-card-title text-wrap
+													>Genauer Ablauf</ion-card-title
+												>
+											</ion-card-header>
+											<ion-card-content>
+												<ion-list>
+													<ion-item>
+														<ion-label text-wrap
+															>1. Infizieren einer Maus mit dem
+															Antigen</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>2. Immunantwort der Maus: Bildung von
+															B-Lymphocyten</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>3. Entnahme von B-Lymphocyten aus der Milz der
+															Maus</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>4. Entnahme von Myelom-Zellen</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>5. Fusionieren von B-Lymphocyten und
+															Myelom-Zellen zu Hybridomzellen</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>6. Selektion von Hybridomzellen (durch Abtötung
+															von unfusionierten B-Lymphocyten und
+															Myelom-Zellen)</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>7. Separation der Hybridomzelllinien</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>8. Selektion der korrekten (zum gewünschten
+															Epitop passenden) Hybridomzelllinie</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-label text-wrap
+															>9. Massenhafte Produktion von MAKs in vitro
+															(Bioreaktoren) oder in vivo (Injizieren der
+															Hybridomzelllinie in Mäuse)</ion-label
+														>
+													</ion-item>
+												</ion-list>
+											</ion-card-content>
+										</ion-card>
+									</ion-list>
+								</ion-card-content>
+							</ion-card>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col>
+							<ion-card>
+								<ion-card-header>
+									<ion-card-title text-wrap>Einsatzgebiete</ion-card-title>
+								</ion-card-header>
+								<ion-card-content>
+									<ion-title text-wrap>Diagnostik</ion-title>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Identifizierung einzelner Antigene in komplexen
+												Mischungen durch die Bindung der MAKs an ein Epitop des
+												Antigens und das Nachweisen dieser Antikörperbindung
+												durch unterschiedliche Techniken</ion-label
+											>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>z.B. Bestimmung von Blutkomponenten oder Tumormarkern
+											</ion-label>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Schwangerschaft-Schnelltest: Nachweis der Bindung von
+												MAKs an das vom sich entwickelnden Embryo gebildete
+												Hormon HCG
+											</ion-label>
+										</ion-item>
+									</ion-list>
+									<ion-title text-wrap>Therapie</ion-title>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Verwendung von MAKs zur Neutralisation, Agglutination und Präzipitation von Antigenen</ion-label
+											>
+										</ion-item>
+										<ion-card>
+											<ion-card-header>
+												<ion-card-title text-wrap
+													>Versuche zum Einsatz von MAKs in der Tumortherapie
+													(bisher jedoch noch nicht
+													erfolgreich):</ion-card-title
+												>
+											</ion-card-header>
+											<ion-card-content>
+												<ion-list>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>Grundidee: MAKs gegen Tumorzellen mit einem
+															Giftstoff koppeln; dieser Antikörper-Toxin-Komplex
+															(Immunotoxin) soll Krebszellen selektiv an
+															Krebszellen binden und diese durch das Toxin
+															zerstören</ion-label
+														>
+													</ion-item>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>zahlreiche Schwierigkeiten bei der praktischen
+															Umsetzung
+														</ion-label>
+													</ion-item>
+													<ion-item>
+														<ion-icon
+															name="radio-button-off"
+															slot="start"
+														></ion-icon>
+														<ion-label text-wrap
+															>Lösung: Verschmelzung von B-Lymphozyten mit
+															unbegrenzt teilungsfähigen Myelom-Zellen
+															(Tumorzellen) --> Entstehung von Hybridomzellen,
+															die unbegrenzt monoklonale Antikörper einer
+															bestimmten Spezifität produzieren</ion-label
+														>
+													</ion-item>
+												</ion-list>
+											</ion-card-content>
+										</ion-card>
+									</ion-list>
+									<ion-title text-wrap
+										>Probleme bei therapeutischer Verwendung</ion-title
+									>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Problem: verwendete Antikörper der Maus werden vom
+												menschlichen Immunsystem als fremd erkannt und wirken
+												selbst als Antigene --> Bildung von Antikörpern gegen die
+												MAKs --> MAKs können ihre therapeutische Wirkung nicht
+												entfalten, potentielle Folgen: grippeähnliche Symptome
+												bis zu schwere Schockzuständen</ion-label
+											>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Lösung: Humanisierung der mittels Mäusen hergestellten
+												MAKs durch den Einbau von Teilen künstlich produzierter menschlicher MAKs
+												mittels Gentechnologie
+											</ion-label>
+										</ion-item>
+									</ion-list>
+								</ion-card-content>
+							</ion-card>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col>
+							<ion-card>
+								<ion-card-header>
+									<ion-card-title text-wrap>Terminologie</ion-card-title>
+								</ion-card-header>
+								<ion-card-content>
+									<ion-list>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>Suffix aller therapeutischer monoklonaler Antikörper:
+												-„mab“ („monoclonal antibody“)
+											</ion-label>
+										</ion-item>
+										<img src="mab.png" />
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>murine Antikörper (vollständig von Maus): -„omab“
+											</ion-label>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>chimäre Antikörper (ausschließlich variabler Teil von
+												Maus): -„ximab“
+											</ion-label>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>humanisierte Antikörper (ausschließlich Paratop von
+												Maus): -„zumab“
+											</ion-label>
+										</ion-item>
+										<ion-item>
+											<ion-icon name="radio-button-off" slot="start"></ion-icon>
+											<ion-label text-wrap
+												>humane Antikörper (vollständig von Mensch):
+												-„umab“</ion-label
+											>
+										</ion-item>
+									</ion-list>
+								</ion-card-content>
+							</ion-card>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-content>
+		</ion-app>
+	</body>
+</html>
